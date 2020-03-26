@@ -24,11 +24,11 @@ Given nums = [2, 7, 11, 15], target = 9,
 Because nums[0] + nums[1] = 2 + 7 = 9,
 return [0, 1].
 ```
-来源：力扣（LeetCode）
+> 来源：力扣（LeetCode）
 链接：https://leetcode-cn.com/problems/two-sum
 
 
-##力扣 (LeetCode)官方分析
+## 力扣 (LeetCode)官方分析
 **方法一：暴力法**
 暴力法很简单，遍历每个元素 `x`，并查找是否存在一个值与 `target - x` 相等的目标元素。
 ```
@@ -44,10 +44,6 @@ class Solution {
         throw new IllegalArgumentException("No two sum solution");
     }
 }
-
-作者：LeetCode
-链接：https://leetcode-cn.com/problems/two-sum/solution/liang-shu-zhi-he-by-leetcode-2/
-来源：力扣（LeetCode）
 ```
 
 **复杂度分析：**
@@ -118,10 +114,8 @@ class Solution {
 > 作者：LeetCode
 链接：https://leetcode-cn.com/problems/two-sum/solution/liang-shu-zhi-he-by-leetcode-2/
 来源：力扣（LeetCode）
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 
-
-##我的答案
+## 我的答案
 * **Ruby**
 
 ```
